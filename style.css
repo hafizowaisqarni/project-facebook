@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(241, 241, 241) ;
+}
+.facebook-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: blue;
+    font-size: 70px;
+  }
+.left-content{
+    width: 500px;
+    height: 80px;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+.left-text{
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+.right-content{
+    background-color: rgb(254, 254, 254);
+    width: 370px;
+    height: 310px;
+    margin-top: 125px;
+    margin-left: 120px;
+    padding-top: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(44, 27, 27);
+    align-content: center;
+}
+input{
+    width: 350px;
+    height: 35px;
+    border-radius: 8px;
+    border-color: rgb(192, 188, 188);
+    margin: 8px;
+
+}
+.login{
+    height: 40px;
+    width: 320px;
+    margin: 20px;
+    margin-left: 25px;
+    background-color: rgb(7, 15, 255);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    margin: 125px;
+}
+a:hover{
+    color: goldenrod;
+}
+.NewAccount{
+    height: 40px;
+    width: 160px;
+    margin: 20px;
+    margin-left: 106px;
+    background-color: rgb(16, 141, 16);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.button:hover{
+ cursor: grab;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+    .button2 {
+      width: 40%;
+      margin-left: 100px;
+    }
+    .parent {
+      display: flex;
+      flex-direction: column;
+    }
+  }
